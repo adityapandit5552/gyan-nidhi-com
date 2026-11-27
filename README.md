@@ -46,27 +46,9 @@ customer information in a private Amazon RDS database.
   SSH                     TCP `22`
   Database                TCP `3306`
 
-## Architecture
+## Architecture Diagarm
+![architecture](screenshot/mermaid-diagram.png)
 
-``` text
-                         INTERNET
-                            |
-                     Internet Gateway
-                            |
-                      PUBLIC SUBNET
-                       10.0.1.0/24
-                            |
-                       Ubuntu EC2
-                       Apache Web
-                            |
-                       TCP 3306
-                            |
-                     PRIVATE SUBNETS
-                  10.0.2.0/24  10.0.3.0/24
-                            |
-                      Amazon RDS
-                        MariaDB
-```
 
 ## Implementation
 
@@ -118,7 +100,6 @@ SELECT * FROM customers;
 
 ## website URL : http://15.207.106.121/
 ```
-
 ## Screenshots
 ## Instance Running
 ![instance](screenshot/instance.png)
