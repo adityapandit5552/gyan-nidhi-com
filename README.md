@@ -138,7 +138,6 @@ SELECT * FROM customers;
 ## Database
 ![ Database ](screenshot/database.png)
 
-![Registration Form](screenshots/Registration.jpeg)
 
 ------------------------------------------------------------------------
 
